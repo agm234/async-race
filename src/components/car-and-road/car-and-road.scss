@@ -1,0 +1,63 @@
+.car_and_road{
+    position: relative;
+    margin-bottom: 25px;
+}
+.car_btns{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.select{
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+}
+.delete{
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+}
+.road{
+    border-bottom: 3px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+}
+.lounch{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.car_name{
+    color: orange;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.btn_contol{
+    width: 43px;
+    height: 20px;
+    font-size: 12px;
+    letter-spacing: normal;
+}
+.flag{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 1%;
+    right: 115px;
+}
+.button:disabled{
+    opacity: 0.5;
+}

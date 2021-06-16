@@ -1,0 +1,13 @@
+.winners{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.hide{
+    display: none;
+}
+.winners_headers{
+    margin-bottom: 10px;
+}
